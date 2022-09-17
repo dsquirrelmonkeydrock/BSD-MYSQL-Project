@@ -47,3 +47,12 @@ CREATE TABLE material (
     cost DECIMAL(7,2)
 
 );
+
+INSERT INTO project (project_name, estimated_hours, actual_hours, difficulty, notes)
+VALUES ('Coaster', 3, 4, 1, 'make a coaster with laser engraving');
+
+INSERT INTO project (project_name, estimated_hours, actual_hours, difficulty, notes)
+VALUES ('Cutting Board', 6, 8, 3, 'make an end grain cutting board');
+
+INSERT INTO project (project_name, estimated_hours, actual_hours, difficulty, notes)
+VALUES ('Wine Caddy', 1, 2, 2, 'make a caddy for wine glasses that sits on top of wine bottle');
